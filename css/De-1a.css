@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+body{
+    background: url(../images/natures.jpg);
+}
+
+#content{
+    width: 70%;
+    height: 90vh;
+    background: white;
+    margin: 2vh auto;
+}
+
+header{
+    width: 100%;
+    height: 20%;
+    background: url(../images/1.jpg);
+    float: left;
+}
+
+header h1{
+    text-align: center;
+    color: red;
+    padding-top: 3%;
+}
+
+header form{
+    text-align: right;
+    color: blue;
+    padding-top: 2%;
+    padding-right: 1%;
+}
+
+header form input [type="button"]{
+    padding: 0 2px;
+}
+nav{
+    width: 18%;
+    height: 70%;
+    background: yellow;
+    float: left;
+}
+
+nav a{
+    display: block;
+    padding: 5% 7%;
+    font-weight: 90%;
+    color: blue;
+    border-bottom: solid 2px blue;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background: brown;
+    color: yellow;
+}
+
+aside{
+    width: 20%;
+    height: 70%;
+    background: gray;
+    float: right;
+}
+
+aside form{
+    padding: 5%;
+}
+
+fieldset{
+    text-align: center;
+    padding: 5%;
+}
+
+fieldset img{
+    width: 50%;
+    margin: 10% 0;
+}
+
+fieldset input{
+    padding:  1% 5%;
+    margin-top: 20%;
+}
+main{
+    width: 62%;
+    height: 70%;
+    float: left;
+}
+
+main div{
+    width: 30%;
+    height: 40%;
+    float: left;
+    padding: 2%;
+    text-align: center;
+}
+
+main div img{
+    width: 120%;
+    padding: 2%;
+}
+
+main div input{
+    margin-top: 5%;
+    padding: 1% 10%;
+    color: red;
+}
+footer{
+    width: 100%;
+    height: 10%;
+    background: url(../images/2.jpg);
+    float: left;
+    color: yellow;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 2%;
+}
